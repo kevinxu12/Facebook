@@ -1,0 +1,200 @@
+1. Team members: Matthew Kim (mattmkim), Kevin Xu (xukevin), Taki Ishimura (takanao)
+2. We have implemented a login page, smart search page, sign up page, news feed page, chatting between two users, chatting between multiple users, sending and receiving friend requests, visualizing friend requests, offering friend recommendations, updating a users profile, adding posts and comments, and receiving notifications.
+3. We have implemented extra credit to delete posts and implement smart search.
+4. Our file structure is as follows.
+
+adsorption
+├── Adsorption.jar
+├── AdsorptionDiffMapper.java
+├── AdsorptionDiffReducer.java
+├── AdsorptionDriver.java
+├── AdsorptionFinishMapper.java
+├── AdsorptionFinishReducer.java
+├── AdsorptionInitMapper.java
+├── AdsorptionInitReducer.java
+├── AdsorptionIterMapper.java
+├── AdsorptionIterReducer.java
+├── build.xml
+├── in
+│   └── test.txt
+└── out
+    ├── _SUCCESS
+    └── part-r-00000
+app.js 
+client
+├── README.md
+├── build
+│   ├── asset-manifest.json
+│   ├── favicon.ico
+│   ├── friendshipvis
+│   │   ├── base.css
+│   │   └── friendvisualizer.js
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   ├── precache-manifest.25eb5678259bc57fa79059fb6a0e6f5c.js
+│   ├── robots.txt
+│   ├── service-worker.js
+│   ├── static
+│   │   ├── css
+│   │   │   ├── 2.7f8de099.chunk.css
+│   │   │   ├── 2.7f8de099.chunk.css.map
+│   │   │   ├── main.4dadc669.chunk.css
+│   │   │   └── main.4dadc669.chunk.css.map
+│   │   ├── js
+│   │   │   ├── 2.41aaf63b.chunk.js
+│   │   │   ├── 2.41aaf63b.chunk.js.map
+│   │   │   ├── main.d660aa3c.chunk.js
+│   │   │   ├── main.d660aa3c.chunk.js.map
+│   │   │   ├── runtime-main.8eea71de.js
+│   │   │   └── runtime-main.8eea71de.js.map
+│   │   └── media
+│   │       ├── Matt.5fc6cd1d.jpg
+│   │       └── Taki.eae57b4d.jpg
+│   └── views
+│       └── friendvisualizer.ejs
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── friendshipvis
+│   │   ├── base.css
+│   │   └── friendvisualizer.js
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   ├── robots.txt
+│   └── views
+│       └── friendvisualizer.ejs
+└── src
+    ├── Components
+    │   ├── App.js
+    │   ├── Auth
+    │   │   ├── Login.js
+    │   │   ├── ProtectedRoute.js
+    │   │   ├── Signup.css
+    │   │   └── Signup.js
+    │   ├── Chat
+    │   │   ├── Chat.js
+    │   │   ├── ChatArea.css
+    │   │   ├── ChatArea.js
+    │   │   ├── ChatBar.css
+    │   │   ├── ChatBar.js
+    │   │   ├── Chatbox.css
+    │   │   └── Chatbox.js
+    │   ├── Feed
+    │   │   ├── Comment.js
+    │   │   ├── CommentSection.css
+    │   │   ├── CommentSection.js
+    │   │   ├── CreateComment.css
+    │   │   ├── CreateComment.js
+    │   │   ├── CreatePost.css
+    │   │   ├── CreatePost.js
+    │   │   ├── NewsFeed.js
+    │   │   ├── Post.css
+    │   │   ├── Post.js
+    │   │   └── TestButton.js
+    │   ├── Feed.css
+    │   ├── Feed.js
+    │   ├── FriendRecommendations
+    │   │   ├── FriendRecommendation.js
+    │   │   └── FriendRecommendations.js
+    │   ├── FriendRequests
+    │   │   ├── FriendRequests.js
+    │   │   ├── IncomingFriendRequest.js
+    │   │   └── OutgoingFriendRequest.js
+    │   ├── Header
+    │   │   ├── AutoComplete.js
+    │   │   ├── Header.js
+    │   │   ├── Search.css
+    │   │   └── Search.js
+    │   ├── Home.js
+    │   ├── Images
+    │   │   ├── Matt.jpg
+    │   │   └── Taki.jpg
+    │   ├── Notifications
+    │   │   └── Notifications.js
+    │   └── Profile
+    │       ├── DisplayProfile.js
+    │       ├── Profile.js
+    │       └── UpdateProfile.js
+    ├── Middleware
+    │   ├── Auth.js
+    │   ├── ChatBar.js
+    │   ├── Comment.js
+    │   ├── FriendRec.js
+    │   ├── FriendReq.js
+    │   ├── Notifications.js
+    │   ├── Post.js
+    │   ├── Profile.js
+    │   ├── Test.js
+    │   └── User.js
+    ├── actions
+    │   ├── index.js
+    │   └── types.js
+    ├── index.js
+    └── reducers
+        ├── authReducer.js
+        ├── chatReducer.js
+        ├── friendReqReducer.js
+        ├── friendsReducer.js
+        └── index.js
+createTableSchemas.js 
+db
+├── chatsdb.js
+├── commentsdb.js
+├── friendrequestdb.js
+├── friendsdb.js
+├── notificationdb.js
+├── postsdb.js
+└── usersdb.js
+design.txt 
+diary
+└── Day2.jpg
+foo.txt 
+known_errors.txt 
+mattdumbo.txt 
+models
+├── Chat.js
+├── Chatroom.js
+├── Comment.js
+├── Friend.js
+├── FriendRequests.js
+├── Notification.js
+├── Post.js
+├── User.js
+└── credentials.json
+package-lock.json 
+package.json
+public
+├── css
+│   └── base.css
+└── js
+    ├── friendvisualizer.js
+    └── jit.js
+routes
+├── authroutes.js
+├── chatroomroutes.js
+├── commentroutes.js
+├── friendrecroutes.js
+├── friendrequestroutes.js
+├── friendroutes.js
+├── friendvisroutes.js
+├── notificationroutes.js
+├── postroutes.js
+├── routes.js
+└── userroutes.js
+server_socket
+├── Chatroom.js
+├── ChatroomManager.js
+├── ClientManager.js
+└── handlers.js
+views
+└── friendvisualizer.ejs
+
+5. All this code was written by us. 
+6. Instructions: Open up two command line windows - one with a working directory of ./git and one with a working directory of ./git/client. In the command line window with the working directory of ./git, run "$ node app.js" to start the backend, and in the command line window with the working directory of ./git/client, run "$ npm start" to start the front end. 
+
+Third party libraries are listed under "dependencies" in the package.json file. To install these libraries, run "npm install _package_"

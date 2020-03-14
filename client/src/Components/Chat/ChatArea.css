@@ -1,0 +1,17 @@
+#outer-div {
+    position: 'fixed';
+    bottom: '0';
+    padding: '30px';
+    width: '100%';
+}
+
+#inner-div {
+    width: '100%';
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.chatbox {
+    float:left;
+    border: 1px solid red;
+}

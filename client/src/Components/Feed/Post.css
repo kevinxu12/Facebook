@@ -1,0 +1,42 @@
+.Post {
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    margin-bottom: 60px;
+    margin-left : 20%;
+    margin-right: 20%;
+  }
+  .Post-header {
+    border: 1px solid #e6e6e6;
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px
+  }
+
+  .Post-user {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+  }
+  .Post-user-nickname {
+    margin-left: 12px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+  }
+  .Post-time {
+    font-family: 'PT Sans', sans-serif;
+    font-size: smaller;
+    margin-left: 25px
+  }
+  .Post-caption {
+    padding: 16px 16px;
+  }
+  .Post-caption strong {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+  }
+  .vjs-fade-out {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }

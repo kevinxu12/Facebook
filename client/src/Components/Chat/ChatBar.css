@@ -1,0 +1,26 @@
+#chatsearch {
+    height:40px;
+    margin-top: 10px;
+}
+
+#friendFind {
+    margin: 0px 10px 0px 10px ;
+    padding: 2px;
+    width: 50%;
+    height:23px;
+    border: solid 1px grey
+}
+
+#groupChat {
+    font-size:20px;
+}
+
+#groupChat:hover {
+    cursor: pointer;
+    font-size:23px;
+}
+
+#errorArea {
+    font-size:10px;
+    color:red;
+}

@@ -1,0 +1,17 @@
+If you get a cross origin error, this is because the backend is run on localhost8080 and the front end on 
+localhost3000. To combat this, refer to the setupProxy.js file in the client/src folder
+
+
+If when installing a package, if you get error along the lines of 'DTrace'. 
+rm -rf node_modules
+npm -i --no-optional 
+
+
+To run the dynamo db stuff,
+only call createtables once. If tables have not been created, uncomment the code out and build the tables.
+Else if the tables are already made, don't call createtables. 
+
+If a change is made to a schema and the table schema changes, delete the old table, and call create tables again.
+
+
+Need to run app.js in one terminal window and npm start in another to get both front end and backend running at the same time.

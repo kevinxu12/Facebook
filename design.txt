@@ -1,0 +1,14 @@
+This is the design document.
+If you need my secret and password, message me on github. DO NOT push the secret onto github 
+
+
+When we add new Schemas. The work show should be as follows.
+1) Define your new schema in models
+2) Insert your new schema into createTables
+3) Go to app.js and update whatever route requires your new schema
+4) Go into this routes class and add a method. 
+
+
+** for getAllComments, need to determine how we are storing the date
+** for Post schema - consider making 
+** send postID to backend - 

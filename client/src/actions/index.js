@@ -1,6 +1,5 @@
 import axios from 'axios'
 import { ADD_CHAT, REMOVE_CHAT, CLEAR_CHATS, SET_FRIENDS, GET_FRIENDS, FETCH_USER, NEW_FRIEND_REQUEST} from './types';
-
 // adds a chat with another person to a local state
 export const addChat = (sender, members) => async dispatch => {
     const name = members.sort().join(', ');

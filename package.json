@@ -14,7 +14,7 @@
     "dtrace-provider": "^0.8.8",
     "dynamodb": "^1.2.1",
     "ejs": "*",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-session": "^1.17.0",
     "path": "^0.12.7",
     "react": "^16.12.0",
